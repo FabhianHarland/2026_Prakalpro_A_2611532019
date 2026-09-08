@@ -1,0 +1,6 @@
+print("Selamat datang")
+nama = input("Masukan nama anda : ")
+NIM = input("Masukan NIM anda : ")
+umur = input("Masukan Umur anda : ")
+hobi = input("Masukan Hobi anda : ")
+print(f"Halo {nama} dengan NIM {NIM} dan umur anda adalah {umur} Tahun.\nhobi anda adalah {hobi}")
