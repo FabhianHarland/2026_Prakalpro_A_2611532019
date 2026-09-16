@@ -24,4 +24,30 @@ print("=========================")
 print("2. OPERATOR IDENTITAS")
 print("=========================")
 
-# objek
+# objek1_2019 menggunakan list dari input pengguna
+objek1_2019 = data_2019
+
+# objek2_2019 merujuk pada objek yang sama dengan objek1_2019
+objek2_2019 = objek1_2019
+
+# objek3_2019 memiliki isi sama, tetapi merupakan objek baru
+objek3_2019 = data_2019.copy()
+
+print("objek1_2019 =", objek1_2019)
+print("objek2_2019 =", objek2_2019)
+print("objek3_2019 =", objek3_2019)
+
+# Operator is
+hasil_2019 = objek1_2019 is objek2_2019
+print("\nOperator identitas IS")
+print("objek1_2019 is objek2_2019 =", hasil_2019)
+
+# Operator is not
+hasil_2019 = objek1_2019 is not objek3_2019
+print("\nOperator identitas IS NOT")
+print("objek1_2019 is not objek3_2019 =", hasil_2019)
+
+# Membandingkan identitas dan nilai
+print("\nPerbandingan identitas dan nilai")
+print("objek1_2019 is objek3_2019 =", objek1_2019 is objek3_2019)
+print("objek1_2019 == objek3_2019 =", objek1_2019 == objek3_2019)
