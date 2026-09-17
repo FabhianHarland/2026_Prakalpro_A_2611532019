@@ -16,7 +16,7 @@ biaya_tambahan_2019 = 0
 print("=== SISTEM TRANSAKSI TOKO ===\n")
 
 # Data Pelanggan
-nama_2019 = input("Masukkan Nama Pelanggan : ")
+nama_2019 = input("Masukkan Nama Anda : ")
 input_status_2019 = input(f"Selamat datang {nama_2019}\nApakah anda adalah member di toko kami? (member/nonmember) : ").strip().lower()
 
 is_member_2019 = False
