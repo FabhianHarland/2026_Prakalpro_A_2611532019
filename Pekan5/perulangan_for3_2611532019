@@ -1,0 +1,12 @@
+ulang_2019= int(input("Masukkan jumlah perulangan: "))
+jumlah_2019 = 0
+for i in range(1,ulang_2019 + 1):
+    print(i,end="")
+    jumlah_2019 += i
+
+    if i < ulang_2019:
+        print("+",end="")
+    else:
+        print("=",jumlah_2019)
+print()
+print("jumlah =",jumlah_2019)

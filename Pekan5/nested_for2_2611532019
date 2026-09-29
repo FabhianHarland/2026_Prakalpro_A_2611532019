@@ -1,0 +1,12 @@
+batas_2019_1 = int(input("Masukkan nilai batas : "))
+for line_2019 in range(1,batas_2019_1 + 1):
+    for j in range(1, batas_2019_1 + 1):
+        print("*",end="")
+    print()
+
+batas_2019_2 = int(input("Masukkan nilai batas : "))
+
+for line_2019 in range(batas_2019_2 + 1):
+    for j in range(batas_2019_2 + 1):
+        print(line_2019+j,end="")
+    print()

@@ -1,0 +1,5 @@
+ulang_2019 = int(input("Masukkan jumlah perulangan: "))
+
+for i in range(1,ulang_2019 + 1):
+    print(f"Perulangan ke-{i}")
+
